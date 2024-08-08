@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="bind.js"></script>
+    <title>bind() Example</title>
+</head>
+<body>
+    <h1>bind() Example</h1>
+    <button id="myButton" onclick="changeText()">Click me!</button>
+    <p id="output">Click on the button to change that text</p>
+
+    <script>
+        function changeText() {
+            document.getElementById("output").innerHTML = "Button clicked!";
+        }
+    </script>
+</body>
+</html>
